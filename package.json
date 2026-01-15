@@ -15,8 +15,7 @@
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/",
-
-  "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "pinia": "^3.0.4",
@@ -41,8 +40,5 @@
     "vite": "beta",
     "vite-plugin-vue-devtools": "^8.0.5",
     "vitest": "^4.0.16"
-
-    
   }
-
 }
