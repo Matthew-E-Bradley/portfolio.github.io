@@ -6,6 +6,8 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 
 // https://vite.dev/config/
 export default defineConfig({
+   base: '/portfolio/', // This ensures your images and CSS load from the subfolder
+  // ... rest of config
   plugins: [
     vue(),
     vueDevTools(),
