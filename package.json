@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://matthew-e-bradley.github.io/portfolio/",
   "engines": {
     "node": "^20.19.0 || >=22.12.0"
   },
@@ -17,7 +18,6 @@
     "lint:oxlint": "oxlint . --fix",
     "lint:eslint": "eslint . --fix --cache",
     "format": "prettier --write --experimental-cli src/"
-  
   },
   "dependencies": {
     "pinia": "^3.0.4",

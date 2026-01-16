@@ -9,7 +9,7 @@ import vueDevTools from 'vite-plugin-vue-devtools'
 export default defineConfig({
   // 1. Base goes here (outside of plugins)
   // Use '/' for your custom domain (matthew-bradley.com)
-  base: '/', 
+  base: '/portfolio/', // This MUST match your repository name
 
   plugins: [
     vue(),
@@ -23,3 +23,4 @@ export default defineConfig({
   },
 })
  
+
