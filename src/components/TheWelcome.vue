@@ -1,10 +1,14 @@
 <script setup>
+import CustomizeComputerIcon from './icons/customize-computer.svg'
+import GrowthChartIcon from './icons/growth-chart-invest.svg'
+import PencilBrushIcon from './icons/pencil-paintbrush.svg'
+import PersonChalkboardIcon from './icons/person-chalkboard.svg'
 import WelcomeItem from './WelcomeItem.vue'
-import DocumentationIcon from './icons/IconDocumentation.vue'
+//import DocumentationIcon from './icons/IconDocumentation.vue'
 import ToolingIcon from './icons/IconTooling.vue'
 import EcosystemIcon from './icons/IconEcosystem.vue'
 import CommunityIcon from './icons/IconCommunity.vue'
-import SupportIcon from './icons/IconSupport.vue'
+//import SupportIcon from './icons/IconSupport.vue'
 
 const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 </script>
@@ -12,7 +16,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 <template>
   <WelcomeItem>
     <template #icon>
-      <DocumentationIcon />
+      <CustomizeComputerIcon />
     </template>
     <template #heading>Graphic Design</template>
 
@@ -21,7 +25,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <ToolingIcon />
+      <GrowthChartIcon />
     </template>
     <template #heading>Instructional Design</template>
 
@@ -30,7 +34,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <EcosystemIcon />
+      <PencilBrushIcon />
     </template>
     <template #heading>Training Development</template>
 
@@ -39,7 +43,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <CommunityIcon />
+      <PersonChalkboardIcon />
     </template>
     <template #heading>SAP Training</template>
 

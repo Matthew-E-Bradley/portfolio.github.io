@@ -7,7 +7,7 @@ const projects = [
     title: 'Greater Columbia Record Fair',
     description: 'Responsive Vue 3 portfolio built with Vite and scoped components.',
     tags: ['Vue 3', 'Vite', 'CSS'],
-    image: '/src/assets/record_fair_8.webp',
+    image: './src/assets/record_fair_8.webp',
     link: '#'
   },
   {
@@ -15,7 +15,7 @@ const projects = [
     title: 'Logos',
     description: 'Markdown-driven blog with client-side routing and search.',
     tags: ['Vue', 'Markdown', 'Router'],
-    image: '/src/assets/IMI logo.png',
+    image: './src/assets/IMI logo.png',
     link: '#'
   },
   {
@@ -23,7 +23,7 @@ const projects = [
     title: 'Flyers and Posters',
     description: 'Reusable UI components and tokens for consistent apps.',
     tags: ['Design', 'Components', 'Accessibility'],
-    image: '/src/assets/indie grits.webp',
+    image: './src/assets/indie grits.webp',
     link: '#'
   }
 ]

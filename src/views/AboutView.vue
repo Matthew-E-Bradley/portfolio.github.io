@@ -24,6 +24,14 @@ import AboutMe from '../components/AboutMe.vue'
 import IconTooling from '../components/icons/IconTooling.vue'
 import IconDocumentation from '../components/icons/IconDocumentation.vue'
 import IconCommunity from '../components/icons/IconCommunity.vue'
+import CustomizeComputerIcon from '../components/icons/customize-computer.svg'
+import GrowthChartInvest from '../components/icons/growth-chart-invest.svg'
+import PersonChalkboard from '../components/icons/person-chalkboard.svg'
+import PencilBrush from '../components/icons/pencil-paintbrush.svg'
+
+
+
+
 
 export default {
   name: 'AboutView',
@@ -32,6 +40,10 @@ export default {
     IconTooling,
     IconDocumentation,
     IconCommunity,
+    CustomizeComputerIcon,
+    GrowthChartInvest,
+    PersonChalkboard,
+    PencilBrush,
   },
 }
 </script>
