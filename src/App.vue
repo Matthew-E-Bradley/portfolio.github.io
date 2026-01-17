@@ -7,7 +7,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <header>
    
     <div class="wrapper">
-       <img alt="MB logo" class="logo" src="/src/assets/MB_Logo.png" >
+       <img alt="MB logo" class="logo" src="/src/assets/icons/MB_Logo.png" >
 
 
 
