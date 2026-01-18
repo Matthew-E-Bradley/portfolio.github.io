@@ -31,12 +31,17 @@ i {
   width: 32px;
   height: 32px;
   color: var(--color-text);
+  font-size: 1.5rem;
 }
 
 i svg {
   width: 100%;
   height: 100%;
   fill: currentColor;
+}
+
+i.fi {
+  font-size: 2rem;
 }
 
 h3 {
