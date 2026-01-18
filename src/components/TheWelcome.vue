@@ -7,7 +7,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 <template>
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-palette"></i>
+      <i class="fi fi-tr-customize-computer"></i>
     </template>
     <template #heading>Graphic Design</template>
 
@@ -16,7 +16,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-person-chalkboard"></i>
+      <i class="fi fi-tr-person-chalkboard"></i>
     </template>
     <template #heading>Instructional Design</template>
 
@@ -25,7 +25,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-pencil"></i>
+      <i class="fi fi-tc-paintbrush-pencil"></i>
     </template>
     <template #heading>Training Development</template>
 
@@ -34,7 +34,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-chart-line-up"></i>
+   <i class="fi fi-ts-chart-histogram"></i>
     </template>
     <template #heading>SAP Training</template>
 
