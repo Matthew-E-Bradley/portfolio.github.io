@@ -7,7 +7,7 @@ const openReadmeInEditor = () => fetch('/__open-in-editor?file=README.md')
 <template>
   <WelcomeItem>
     <template #icon>
-   <i class="fi fi-rr-customize-computer"></i>
+   <i class="fi fi-rr-paintbrush-pencil"></i>
     </template>
     <template #heading>Graphic Design</template>
 
@@ -25,7 +25,8 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-paintbrush-pencil"></i>
+
+      <i class="fi fi-rr-person-chalkboard"></i>
     </template>
     <template #heading>Training Development</template>
 
