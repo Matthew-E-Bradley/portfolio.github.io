@@ -1,6 +1,6 @@
 <script setup>
 import { ref, computed } from 'vue'
-import GalleryImage from '../components/GalleryImage.vue'
+import GalleryImage from '../assets/record_fair_8.webp'
 import recordFair from '../assets/record_fair_8.webp'
 import imiLogo from '../assets/IMI logo.png'
 import indieGrits from '../assets/indie grits.webp'
