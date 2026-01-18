@@ -33,6 +33,12 @@ i {
   color: var(--color-text);
 }
 
+i svg {
+  width: 100%;
+  height: 100%;
+  fill: currentColor;
+}
+
 h3 {
   font-size: 1.2rem;
   font-weight: 500;

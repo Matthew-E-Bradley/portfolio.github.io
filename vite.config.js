@@ -15,7 +15,21 @@ export default defineConfig({
   plugins: [
     vue(),
     vueDevTools(),
-    svgLoader({ defaultImport: 'component' }),
+    svgLoader({ 
+      defaultImport: 'component',
+      svgoConfig: {
+        plugins: [
+          {
+            name: 'preset-default',
+            params: {
+              overrides: {
+                removeViewBox: false,
+              },
+            },
+          },
+        ],
+      },
+    }),
   ],
   resolve: {
     alias: {
