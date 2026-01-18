@@ -1,8 +1,5 @@
 <script setup>
 import ProjectCard from '../components/ProjectCard.vue'
-import recordFair from '../assets/record_fair_8.webp'
-import imiLogo from '../assets/IMI logo.png'
-import indieGrits from '../assets/indie grits.webp'
 
 const projects = [
   {
@@ -10,7 +7,7 @@ const projects = [
     title: 'Greater Columbia Record Fair',
     description: 'Responsive Vue 3 portfolio built with Vite and scoped components.',
     tags: ['Vue 3', 'Vite', 'CSS'],
-    image: recordFair,
+    image: new URL('../assets/record_fair_8.webp', import.meta.url).href,
     link: '#'
   },
   {
@@ -18,7 +15,7 @@ const projects = [
     title: 'Logos',
     description: 'Markdown-driven blog with client-side routing and search.',
     tags: ['Vue', 'Markdown', 'Router'],
-    image: imiLogo,
+    image: new URL('../assets/IMI logo.png', import.meta.url).href,
     link: '#'
   },
   {
@@ -26,7 +23,7 @@ const projects = [
     title: 'Flyers and Posters',
     description: 'Reusable UI components and tokens for consistent apps.',
     tags: ['Design', 'Components', 'Accessibility'],
-    image: indieGrits,
+    image: new URL('../assets/indie grits.webp', import.meta.url).href,
     link: '#'
   }
 ]
