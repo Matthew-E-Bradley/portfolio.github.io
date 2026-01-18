@@ -8,24 +8,24 @@ const projects = [
   {
     id: 1,
     title: 'Greater Columbia Record Fair',
-    description: 'Responsive Vue 3 portfolio built with Vite and scoped components.',
-    tags: ['Vue 3', 'Vite', 'CSS'],
+    description: 'Creation, Organizing, Marketing, and Design of the Greater Columbia Record Fair for 10 years.',
+    tags: [ 'Event Planning', 'Marketing', 'Graphic Design', 'Branding'],
     image: recordFair,
     link: '#'
   },
   {
     id: 2,
     title: 'Logos',
-    description: 'Markdown-driven blog with client-side routing and search.',
-    tags: ['Vue', 'Markdown', 'Router'],
+    description: 'Hand-drawn and digitally designed logos for various clients.',
+    tags: ['Illustration', 'Logo Design', 'Branding'],
     image: imiLogo,
     link: '#'
   },
   {
     id: 3,
     title: 'Flyers and Posters',
-    description: 'Reusable UI components and tokens for consistent apps.',
-    tags: ['Design', 'Components', 'Accessibility'],
+    description: 'Hand-drawn and digitally designed flyers and posters for various clients.',
+    tags: ['Design', 'Illustration', 'Typography'],
     image: indieGrits,
     link: '#'
   }
