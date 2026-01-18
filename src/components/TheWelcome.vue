@@ -16,7 +16,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-chart-line-up"></i>
+      <i class="fi fi-rr-person-chalkboard"></i>
     </template>
     <template #heading>Instructional Design</template>
 
@@ -34,7 +34,7 @@ Flyers, Logos, Banners, Social Media Posts, and more. I provide professional gra
 
   <WelcomeItem>
     <template #icon>
-      <i class="fi fi-rr-person-chalkboard"></i>
+      <i class="fi fi-rr-chart-line-up"></i>
     </template>
     <template #heading>SAP Training</template>
 
